@@ -1,0 +1,87 @@
+.navbar1 {
+    height: 86px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    cursor: pointer;
+}
+
+.navbar3 {
+    height: 86px;
+    width: 47%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar4 {
+    height: 86px;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+span {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+}
+
+.main3 {
+    height: 90vh;
+    width: 100%;
+    background-image: url(https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/67351d5a-b913-4b49-bb2c-5ab12aa79722/b7ed3571-f518-4946-b610-70b1ee573b0e/1280x720/match/image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.but {
+    color: white;
+    background-color: red;
+    height: 33px;
+    width: 60px;
+    margin-left: 120px;
+    transform: translateY(300px);
+    line-height: 2;
+    font-weight: 700;
+}
+
+.h1tag {
+    margin-left: 120px;
+    transform: translateY(300px);
+    font-size: 60px;
+
+}
+
+pre {
+    margin-left: 120px;
+    transform: translateY(300px);
+    font-size: 20px;
+    line-height: 2;
+}
+
+.last {
+    height: 57px;
+    width: 130px;
+    margin-left: 120px;
+    transform: translateY(300px);
+    background-color: red;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.last:hover{
+    background-color: white;
+    color: red;
+    transition: 1s;
+}

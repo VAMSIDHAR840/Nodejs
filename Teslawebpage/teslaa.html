@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        svg{
+    height: 70px;
+    width: 70px;
+}
+#abc{
+    height: 70px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+section{
+    height: 70px;
+    width: 10%;
+}
+article{
+    height: 70px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+aside{
+    height: 70px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#d{
+    display: flex;
+    align-items: center;
+justify-content: center;
+
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: url('data:image/jpeg;base64,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');
+    background-repeat: no-repeat;
+    background-size: cover
+    ;
+}
+h1{
+margin-left: 600px;
+margin-top: 100px;
+}
+#i{
+   
+    height: 70px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 350px;
+    margin-left: 500px;
+
+}
+#i h3{
+     transform: translateY(10px);
+}
+div button{
+    height: 40px;
+    width: 200px;
+    color: black;
+    background-color: #fff;
+    margin-top: 30px;
+    transform: translateX(500px);
+    border: 2px solid orange;
+    cursor: pointer;
+    border-radius: 5px ;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+
+    </style>
+</head>
+<body>
+    <div id="d">
+       
+    <div id="abc">
+       
+       <section><svg class="tds-icon tds-icon-logo-wordmark tds-site-logo-icon" viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg"><path d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zM308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7z" fill="currentColor"></path></svg></section>
+       <article>
+        <span>Model S</span>
+        <span>Model A</span>
+        <span>Model B</span>
+        <span>Model C</span>
+        <span>Midel V</span>
+        <span>Model C</span>
+        <span>Model X</span>
+       </article>
+        <aside>
+            <span>Shop</span>
+            <span>Account</span>
+            <span>Menu</span>
+        </aside>
+       
+
+    </div>  
+
+    </div>
+    <h1>POWER HALL</h1>
+    <div id="i">
+        <span><h3>Back Enery</h3> Storage</span>
+        <span><h3>Outage</h3> Protection</span>
+        <span><h3>Energy</h3>Independecies</span>
+    </div>
+
+    <div>
+        <button>Order Powerwall</button>
+        <button>Order with Solor</button>
+    </div>
+</body>
+</html>
